@@ -1,0 +1,48 @@
+version: "3.1"
+
+stories:
+
+- story: greeting path
+  steps:
+    - intent: greet
+    - action: utter_greet
+
+- story: goodbye path
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye
+
+- story: about riyo
+  steps:
+    - intent: ask_about_riyo
+    - action: action_about_riyo
+
+- story: about echo
+  steps:
+    - intent: ask_about_echo
+    - action: utter_about_echo
+
+- story: echo features
+  steps:
+    - intent: ask_echo_features
+    - action: utter_echo_features
+
+- story: feed info
+  steps:
+    - intent: ask_feed
+    - action: utter_feed
+
+- story: chat info
+  steps:
+    - intent: ask_chat
+    - action: utter_chat
+
+- story: notifications info
+  steps:
+    - intent: ask_notifications
+    - action: utter_notifications
+
+- story: datetime
+  steps:
+    - intent: ask_datetime
+    - action: action_current_datetime

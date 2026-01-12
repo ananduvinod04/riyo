@@ -1,0 +1,16 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Rasa generated files
+models/
+.cache/
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env

@@ -1,0 +1,55 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - ask_about_riyo
+  - ask_about_echo
+  - ask_echo_features
+  - ask_feed
+  - ask_chat
+  - ask_notifications
+  - ask_datetime
+
+responses:
+  utter_greet:
+    - text: "Hey 👋 I’m Riyo! How can I help you today?"
+
+  utter_goodbye:
+    - text: "Goodbye 👋 Have a great time on ECHO!"
+
+  utter_about_echo:
+    - text: >
+        ECHO is a social media and real-time messaging platform.
+        You can post updates, chat with users instantly, and stay connected 🚀
+
+  utter_echo_features:
+    - text: >
+        ECHO features include:
+        📝 Social feed (posts, likes, comments)
+        💬 Real-time chat using Socket.IO
+        🔔 Notifications
+        🔐 Secure authentication
+
+  utter_feed:
+    - text: >
+        The feed lets you share posts, like and comment on others' updates.
+        It helps you express and connect with people 📢
+
+  utter_chat:
+    - text: >
+        ECHO chat is real-time ⚡
+        You can message users instantly with secure and fast delivery.
+
+  utter_notifications:
+    - text: >
+        You receive notifications for new messages, chat requests,
+        and important activity alerts 🔔
+
+actions:
+  - action_about_riyo
+  - action_current_datetime
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,91 @@
+version: "3.1"
+
+nlu:
+
+# -------- GREETINGS --------
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - hey
+    - hey riyo
+    - hi riyo
+    - hello there
+    - good morning
+    - good afternoon
+    - good evening
+    - what's up
+    - yo
+    - hai
+
+# -------- GOODBYE --------
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you
+    - talk to you later
+    - catch you later
+    - exit
+
+# -------- ABOUT RIYO --------
+- intent: ask_about_riyo
+  examples: |
+    - who are you
+    - what is riyo
+    - tell me about yourself
+    - what do you do
+    - who created you
+    - are you a bot
+
+# -------- ABOUT ECHO --------
+- intent: ask_about_echo
+  examples: |
+    - what is echo
+    - explain echo
+    - tell me about echo app
+    - what does echo do
+    - what kind of app is echo
+
+# -------- ECHO FEATURES --------
+- intent: ask_echo_features
+  examples: |
+    - what features does echo have
+    - echo features
+    - what can i do in echo
+    - functionalities of echo
+
+# -------- FEED SYSTEM --------
+- intent: ask_feed
+  examples: |
+    - what is feed
+    - how to create a post
+    - how feed works
+    - can i like posts
+    - can i comment on posts
+
+# -------- CHAT SYSTEM --------
+- intent: ask_chat
+  examples: |
+    - how messaging works
+    - how to send message
+    - explain chat system
+    - can i chat in echo
+    - is chat real time
+
+# -------- NOTIFICATIONS --------
+- intent: ask_notifications
+  examples: |
+    - what notifications do i get
+    - how notifications work
+    - message alerts
+    - chat notifications
+
+# -------- DATE & TIME --------
+- intent: ask_datetime
+  examples: |
+    - what is the time
+    - current time
+    - tell me the date
+    - what day is today
+    - current date and time
