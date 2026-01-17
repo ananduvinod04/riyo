@@ -2,4 +2,4 @@
 
 # Custom Action Server
 action_endpoint:
-  url: "http://localhost:5055/webhook"
+  url: "https://riyo-g2gw.onrender.comwebhook"
