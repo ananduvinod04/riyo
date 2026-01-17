@@ -49,6 +49,8 @@ responses:
 actions:
   - action_about_riyo
   - action_current_datetime
+  - action_external_knowledge
+
 
 session_config:
   session_expiration_time: 60

@@ -1,16 +1,12 @@
+# Rasa
+models/
+
 # Python
-venv/
 __pycache__/
 *.pyc
 
-# Rasa generated files
-models/
-.cache/
-logs/
+# Environment
+.env
 
 # OS
 .DS_Store
-Thumbs.db
-
-# Env
-.env

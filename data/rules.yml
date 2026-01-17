@@ -16,3 +16,8 @@ rules:
   steps:
     - intent: ask_datetime
     - action: action_current_datetime
+
+- rule: Use external knowledge when unknown
+  steps:
+    - intent: nlu_fallback
+    - action: action_external_knowledge
